@@ -11,7 +11,7 @@ import CorePlugin from './segments/core.js'
 import type { IPlugin } from "@spotube-app/plugin"
 import EdmLiveClient from "./clients/edm_live.js"
 
-export default class TemplateMetadataProviderPlugin implements IPlugin {
+export default class EdmLiveClientProviderPlugin implements IPlugin {
   audioSource: AudioSourceEndpoint;
   auth: AuthEndpoint;
   album: AlbumEndpoint;
@@ -23,8 +23,8 @@ export default class TemplateMetadataProviderPlugin implements IPlugin {
   user: UserEndpoint;
   core: CorePlugin;
   private readonly client: EdmLiveClient;
-  
-  constructor (){
+
+  constructor() {
     this.client = new EdmLiveClient()
     this.auth = new AuthEndpoint()
     this.audioSource = new AudioSourceEndpoint(this.client)

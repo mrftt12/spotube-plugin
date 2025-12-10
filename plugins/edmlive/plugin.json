@@ -3,7 +3,7 @@
   "name": "EDM Live Sets",
   "author": "Frank M Gonzales",
   "description": "Access EDM Live Sets directly from Spotube.",
-  "entryPoint": "TemplateMetadataProviderPlugin",
+  "entryPoint": "EdmLiveClientProviderPlugin",
   "apis": [
     "webview",
     "localstorage",
@@ -13,6 +13,6 @@
     "metadata",
     "audio-source"
   ],
-  "repository": "https://github.com/KRTirtho/spotube-plugin-template",
+  "repository": "https://github.com/mrftt12/spotube-plugin/tree/master/plugins/edmlive",
   "pluginApiVersion": "2.0.0"
 }
