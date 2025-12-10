@@ -11,7 +11,7 @@
   ],
   "abilities": [
     "metadata",
-    "audioSource"
+    "audio-source"
   ],
   "repository": "https://github.com/KRTirtho/spotube-plugin-template",
   "pluginApiVersion": "2.0.0"
